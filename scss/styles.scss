@@ -1,0 +1,55 @@
+// Variable Overrides 
+$theme-colors: (
+  "primary": #a5a9f2
+);
+
+$body-bg: #f3f3f3;
+
+.jumbotron {
+    background-color: #ffffff !important;
+    border-top: 3px solid rgb(219, 219, 219);
+}
+
+ .btn-primary {
+  background-color: #FDF0F5 !important;
+  border-color: #FDF0F5 !important;
+  color: #212529;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+  color: #ffffff;
+  background-color: #f9dfd1;
+}
+
+#funFacts > .col > .card > .card-body > a {
+  color: #a5a9f2;
+}
+
+.collapse > .card {
+  border-color: #a5a9f2;
+}
+
+$link-color: grey;
+
+.navbar-default {
+  background-color:#FDF0F5;
+  background-image: none;
+  background-repeat: no-repeat;
+ }
+
+ .card-header {  
+  background-color: #e8e9fc !important;
+ }
+
+footer {
+    color: #999cff;
+    // color: #8dd9fd;
+    background-color: #dff5ff;
+}
+
+.alert{
+  display:none;
+}
+
+// Bootstrap Sass Imports
+@import "node_modules/bootstrap/scss/bootstrap";
