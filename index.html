@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <title>Hannah Rogers</title>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <link rel="shortcut icon" href="./assets/me_fav.ico" type="image/x-icon">
+        <link rel="icon" href="./assets/me_fav.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
+        <link rel='stylesheet' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <link rel="stylesheet" href="/css/styles.css">
+
+    </head>
+
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-default navbar-light" id="top">
+                <a class="navbar-brand" href="#top"></a>
+                <img src="./assets/me.png" width="45" height="45" alt="">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#top">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#funFacts">Fun Facts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="jumbotron pb-0" id="#about">
+                <h1 class="display-4 mb-3">Hannah Rogers</h1>
+                <p class="lead">Hello! My name is Hannah Rogers, I'm a rising third year at Northeastern University's Khoury Colloge of Computer Sciences. 
+                     am pursuing a bachelors in Computer Science and Media Art. I am interested in full-stack software engineering, and I have worked with Java, HTML/CSS, SQL, and Javascript.</p>
+                <p class="lead">I am currently on my first co-op, working as a full-stack developer at PowerAdvocate. Here, I use JQuery, React, SQL, and Java.</p>
+            
+                <p class="lead mt-5">
+                    <a class="btn btn-primary btn-lg" href="./assets/HannahRogers_Resume.pdf" target="_blank" role="button">My Resume</a>
+                    <a class="btn btn-primary btn-lg ml-2" role="button" id="btnShow">My Portfolio</a>
+                    <img class="align-self-end" src="./assets/WhaleGif1.gif" width="450" alt="">
+                    <div class="alert alert-danger alert-dismissable">
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                        Uh oh! This page is under construction! Contact me or go to my links below to find my work.
+                    </div>
+                </p>
+            </div>
+        </div>
+
+        <div class="container mb-4">
+            <div class="row mt-4">
+                <div class="col">
+                    <div class="card senior-quote mb-3">
+                        <div class="card-header">
+                            <a data-toggle="tooltip" data-placement="right" title="My highschool didn't have senior quotes, so I'm putting this here.">
+                            My Would-Be Senior Quote</a>
+                        </div>
+                        <div class="card-body text-center">
+                            <blockquote class="blockquote mb-0">
+                            <p>"Too old to be a duckling. Quack quack."</p>
+                            <footer class="blockquote-footer">John Mulaney,<cite title="Source Title"> The Comeback Kid</cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="accordion">
+                <div class="row show" id="funFacts">
+                    <div class="col">
+                        <div class="card" id="one">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Hannah!</h5>
+                                <a href="#meFacts" class="card-link" data-toggle="collapse" data-target="#meFacts" aria-expanded="false" aria-controls="meFacts">Some fun facts about me.</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" id="two">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Other?</h5>
+                                <a href="#miscFacts" class="card-link" data-toggle="collapse" data-target="#miscFacts"  aria-expanded="false" aria-controls="miscFacts" >Some facts I think are fun.</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-3">
+                    <div class="collapse" id="meFacts" aria-labelledby="one" data-parent="#accordion"> 
+                        <div class="card card-body">
+                            <ul>
+                                <li>I'm a twin.</li>
+                                <li>I'm from New Jersey, and Central Jersey is a thing. Fight me.</li>
+                                <li>I want to keep bees.</li>
+                                <li>I can fluently speak a made-up gibberish language called Ubbi Dubbi from the PBS show Zoom.</li>
+                                <li>I love hockey, and am a Rangers fan.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="collapse" id="miscFacts"aria-labelledby="two" data-parent="#accordion">
+                        <div class="card card-body">
+                            <ul>
+                                <li>Killer whales are a natural predator of the moose.</li>
+                                <li>Honey bees are the only insect that produce food eaten by humans.</li>
+                                <li>When a bees finds a good place to build a new hive, they fly back to the old hive and complete in a dance off doing the 'waggle dance.' This dance communicates the new location, and the more emphatic the dance, the stronger the bee feels about its location.</li>
+                                <li>In aquatic traffic jams, alligators will give manatees the right of way because manatees will nudge them out of the way.</li>
+                             </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/popper.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>        
+        <script>
+            $("#btnShow").click(function(){
+                $(".alert").hide().show('medium');
+            });
+        </script>
+        <script>
+                $(document).ready(function(){
+                  $('[data-toggle="tooltip"]').tooltip(); 
+                });
+        </script>
+    </body>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small pt-4">
+        <div class="container-fluid text-center text-md-left">
+            <div class="row">
+            <div class="col-md-6 mt-md-0 mt-3" id="contact">
+                <h5 class="text-uppercase">Contact</h5>
+                <p>rogershannah99@gmail.com</p>
+            </div>
+            <hr class="clearfix w-100 d-md-none pb-3">
+            <div class="col-md-3 mb-md-0 mb-3">
+                <h5 class="text-uppercase">Links</h5>
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="https://github.com/rogershannah" target="_blank"><i class="fa fa-github"></i></a></li>
+                    <li class="nav-item ml-auto"><a href="https://www.linkedin.com/in/hannahrrogers/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li class="nav-item ml-auto"><a href="https://www.facebook.com/profile.php?id=100013121889544" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li class="nav-item ml-auto"><a href="https://www.instagram.com/hannahdoesartstuff/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</html>
